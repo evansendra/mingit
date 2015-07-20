@@ -1,4 +1,5 @@
-# ![Image of g Unit](https://goo.gl/photos/h2otsqeW2D3u8CaL6)
+![#g Unit](https://lh3.googleusercontent.com/AjJ-FREnS8Fs26KeBM1YCHbXkwscaJAtuL2s7ClZzrc=w640-h200-no)
+
 A smaller set of commands for the most-used commands in git, because who wants to keep typing `git commit -m "blah blah blah"` their whole lives? 
 
 ## Getting started
