@@ -1,0 +1,30 @@
+g()
+{
+    if [[ $1 == 'a' ]]; then
+        shift
+        eval git add $@
+    elif [[ $1 == 'b' ]]; then
+        shift
+        eval git branch $@
+    elif [[ $1 == 'c' ]]; then
+        shift 
+        eval git commit -m \"$1\"
+    elif [[ $1 == 'co' ]]; then
+        shift
+        eval git checkout $@
+    elif [[ $1 == 'd' ]]; then
+        shift
+        eval git diff $@
+    elif [[ $1 == 'pll' ]]; then
+        shift 
+        eval git pull $@
+    elif [[ $1 == 'psh' ]]; then
+        shift
+        eval git push $@
+    elif [[ $1 == 's' ]]; then
+        shift
+        eval git status $@
+    else
+        eval git $@
+    fi  
+}
