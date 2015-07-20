@@ -1,5 +1,5 @@
 # git-rc
-A smaller set of commands for the most-used commands in git, because who wants to keep typing `git commit -m` their whole lives? 
+A smaller set of commands for the most-used commands in git, because who wants to keep typing `git commit -m "blah blah blah"` their whole lives? 
 
 ## Getting started
 
@@ -27,7 +27,7 @@ Supporting the minimal number of highly-used commands
     
 This tries not to destroy command line parameters, so for example typing 
 
-    g psh origin hamster
+    g psh origin magic      // pushes local to origin/magic
 
 or any other number of parameters on different commands is also ok.  Also, since command line parameters are not destoryed, using `g` by itself instead of git followed by a command also works:
 
