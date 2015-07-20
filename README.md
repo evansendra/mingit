@@ -1,4 +1,4 @@
-# git-rc
+# ![Image of g Unit](https://goo.gl/photos/h2otsqeW2D3u8CaL6)
 A smaller set of commands for the most-used commands in git, because who wants to keep typing `git commit -m "blah blah blah"` their whole lives? 
 
 ## Getting started
