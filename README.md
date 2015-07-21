@@ -37,6 +37,6 @@ If on windows, you should be able to append to `.bashrc` (create it if it doesn'
 
 If on mac, append the bashrc file to your `~/.bash_profile` file
 
-Now use the [g-unit commands](#Commands) instead of the git commands to save tons of time while using git.
+Now use the [g-unit commands](#commands) instead of the git commands to save tons of time while using git.
 
 
