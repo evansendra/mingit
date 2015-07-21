@@ -29,14 +29,14 @@ or any other number of parameters on different commands is also ok.  Also, since
 
 ### Setup
 
-Append the `.append-to-your-bashrc` to the appropriate place (see below) and start a new shell.
+Append the contents of `.append-to-your-bashrc` to the bottom of the appropriate file (see below) and start a new shell.
 
 If on linux, append the bashrc file to `~/.bashrc` and try out the shortened commands!
 
-If on windows, you should be able to append the bashrc file to the directory output by entering `echo $HOME` on your git bash setup (probably `/c/users/$USER`)
+If on windows, you should be able to append to `.bashrc` (create it if it doesn't exist) in your home directory (find home by `echo $HOME` on your git bash setup...probably `/c/users/$USER`).
 
 If on mac, append the bashrc file to your `~/.bash_profile` file
 
-Now use the [Supported Commands] instead of the git commands to save tons of time while using git.
+Now use the [g-unit commands](#Supported Commands) instead of the git commands to save tons of time while using git.
 
 
