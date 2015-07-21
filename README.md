@@ -1,8 +1,8 @@
 ![#g Unit](https://lh3.googleusercontent.com/AjJ-FREnS8Fs26KeBM1YCHbXkwscaJAtuL2s7ClZzrc=w640-h200-no)
 
-A smaller set of commands for the most-used commands in git, because who wants to keep typing `git commit -m "blah blah blah"` their whole lives?
+An extremely minified alias for git commands.  Because who wants `git commit -m "blah blah blah"` to make every change?
 
-![#animated demo](https://lh3.googleusercontent.com/VMJqIA52i_7oeY3z1zRThPmE_4nZYdsLfTdP95EKrQU=w906-h582-no)
+<img src="https://lh3.googleusercontent.com/VMJqIA52i_7oeY3z1zRThPmE_4nZYdsLfTdP95EKrQU=w906-h582-no" alt="animated demo" width="500px"/>
 
 ## Getting started
 
@@ -10,7 +10,7 @@ A smaller set of commands for the most-used commands in git, because who wants t
 Supporting the minimal number of highly-used commands
 
     g a .                   // git add .
-    g b new-branch          // git branch new-branch
+    g b other-branch        // git branch other-branch
     g c "made some changes" // git commit -m "made some changes"
     g co master             // git checkout master
     g d                     // git diff
