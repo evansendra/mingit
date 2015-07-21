@@ -1,6 +1,6 @@
 g()
 {
-	arg=$1
+	arg1=$1
 	shift
 	case "$arg1" in
 		a)
@@ -24,6 +24,6 @@ g()
 		s)
 			eval git status $@;;
 		*)
-			eval git $@;;
+			eval git $arg1 $@;;
 	esac
 }
