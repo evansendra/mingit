@@ -15,6 +15,9 @@ g()
     elif [[ $1 == 'd' ]]; then
         shift
         eval git diff $@
+    elif [[ $1 == 'm' ]]; then
+        shift
+        eval git merge $@
     elif [[ $1 == 'pll' ]]; then
         shift 
         eval git pull $@
