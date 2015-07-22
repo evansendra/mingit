@@ -1,4 +1,4 @@
-![#g Unit](https://lh3.googleusercontent.com/AjJ-FREnS8Fs26KeBM1YCHbXkwscaJAtuL2s7ClZzrc=w640-h200-no)
+![#mingit](https://lh3.googleusercontent.com/rWSr2KXpOY038Jk834olHW5HDPo_yBn7dDxkrv0KXNM=w728-h228-no)
 
 An extremely minified alias for git commands.  Because who wants `git commit -m "blah blah blah"` to make every change?
 
