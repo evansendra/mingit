@@ -27,7 +27,7 @@ or any other number of parameters on different commands is also ok.  Also, since
 
     g stash                 // works just as well with any git subcommand
 
-### Setup
+### Setup in 60 Seconds
 
 Append the contents of `.append-to-your-bashrc` to the bottom of the appropriate file (see below) and start a new shell.
 
