@@ -41,7 +41,7 @@ Append the contents of `.append-to-your-bashrc` to the bottom of the appropriate
 
 If on linux, append the bashrc file to `~/.bashrc` and append the `.append-to-your-git-completions` to file at `/usr/share/bash-completion/completions/git`, then try out the shortened commands!
 
-Tab completions are currently not supported for windows or mac, so remove the `source ...` line from `.append-to-your-bashrc` and don't do anything with the second dotfile.
+Tab completions are currently not supported for windows or mac, so remove the lines 1 & 2 (`source ...` and `complete ...`) from `.append-to-your-bashrc` and don't do anything with the second dotfile.
 
 If on mac, append the bashrc file to your `~/.bash_profile` file.
 
