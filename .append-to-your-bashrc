@@ -1,3 +1,5 @@
+source /usr/share/bash-completion/completions/git
+complete -o default -F _git g
 g()
 {
 	arg1=$1
