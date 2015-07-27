@@ -37,16 +37,18 @@ as you normally would.
 
 ### Setup in 2 minutes
 
-Append the contents of `.append-to-your-bashrc` to the bottom of the appropriate file (see below) and start a new shell.
+### Linux
 
 If on linux, append the bashrc file to `~/.bashrc` and append the `.append-to-your-git-completions` to file at `/usr/share/bash-completion/completions/git`, then try out the shortened commands!
 
-Tab completions are currently not supported for windows or mac, so remove the lines 1 & 2 (`source ...` and `complete ...`) from `.append-to-your-bashrc` and don't do anything with the second dotfile.
+### Mac
 
-If on mac, append the bashrc file to your `~/.bash_profile` file.
+Append the contents of `.bash_profile` to your `~/.bash_profile`:
 
-If on windows, you should be able to append `.append-to-your-bashrc` to `.bashrc` (create it if it doesn't exist) in your home directory (find home by `echo $HOME` on your git bash setup...probably `/c/users/$USER`). 
+	./.bash_profile >> ~/.bash_profile
+
+### Windows 
+
+If on windows, you should be able to append `.win-bashrc` to `~/.bashrc` (create it if it doesn't exist) in your home directory (find home by `echo $HOME` on your git bash setup...probably `/c/users/$USER`). 
 
 Now use the [mingit commands](#commands) instead of the git commands to save tons of time while using git.
-
-
