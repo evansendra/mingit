@@ -35,7 +35,7 @@ It also keeps tab completion.  So when you want to switch to another branch, jus
 
 as you normally would.
 
-### Setup in 2 minutes
+### Setup in 30 seconds
 
 ### Linux
 
