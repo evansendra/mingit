@@ -39,13 +39,15 @@ as you normally would.
 
 ### Linux
 
-If on linux, append the bashrc file to `~/.bashrc` and append the `.append-to-your-git-completions` to file at `/usr/share/bash-completion/completions/git`, then try out the shortened commands!
+If on linux, append the bashrc file to `~/.bashrc` to use shortened commands. 
+
+	cat ./.bashrc >> ~/.bashrc
 
 ### Mac
 
 Append the contents of `.bash_profile` to your `~/.bash_profile`:
 
-	./.bash_profile >> ~/.bash_profile
+	cat ./.bash_profile >> ~/.bash_profile
 
 ### Windows 
 
