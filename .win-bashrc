@@ -1,5 +1,4 @@
-source /usr/share/bash-completion/completions/git
-complete -o default -F _git g
+# git alias land
 g()
 {
 	arg1=$1
