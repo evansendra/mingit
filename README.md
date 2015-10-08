@@ -36,7 +36,7 @@ It also keeps tab completion.  So when you want to switch to another branch, jus
 
 as you normally would.
 
-### Setup in 2 minutes
+### Setup in 30 seconds
 
 ### Linux
 
@@ -52,6 +52,6 @@ Append the contents of `.bash_profile` to your `~/.bash_profile`:
 
 ### Windows 
 
-If on windows, you should be able to append `.win-bashrc` to `~/.bashrc` (create it if it doesn't exist) in your home directory (find home by `echo $HOME` on your git bash setup...probably `/c/users/$USER`). 
+If on windows, append `.win-bashrc` to `~/.bashrc` (create it if it doesn't exist) in your home directory (find home by `echo $HOME` on your git bash setup...probably `/c/users/$USER`). 
 
 Now use the [mingit commands](#commands) instead of the git commands to save tons of time while using git.
