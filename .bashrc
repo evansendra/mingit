@@ -20,6 +20,10 @@ _git_d ()
 {
     _git_diff
 }
+_git_f ()
+{
+	_git_fetch
+}
 _git_i ()
 {
     _git_init
@@ -54,6 +58,8 @@ g()
 			eval git checkout $@;;
 		d)
 			eval git diff $@;;
+		f)
+			eval git fetch $@;;
 		i)
 			eval git init $@;;
 		m)
