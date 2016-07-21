@@ -1,8 +1,9 @@
 ![#mingit](https://lh3.googleusercontent.com/rWSr2KXpOY038Jk834olHW5HDPo_yBn7dDxkrv0KXNM=w728-h228-no)
+<img src="https://lh3.googleusercontent.com/rWSr2KXpOY038Jk834olHW5HDPo_yBn7dDxkrv0KXNM=w728-h228-no" alt="Mingit Logo" width="364px" height="114px"/>
 
 An extremely minified alias for git commands with tab completion.  Because who wants `git commit -m "blah blah blah"` to make every change?
 
-<img src="https://lh3.googleusercontent.com/VMJqIA52i_7oeY3z1zRThPmE_4nZYdsLfTdP95EKrQU=w906-h582-no" alt="animated demo" width="250px"/>
+<img src="https://lh3.googleusercontent.com/VMJqIA52i_7oeY3z1zRThPmE_4nZYdsLfTdP95EKrQU=w906-h582-no" alt="animated demo" width="500px"/>
 
 ## Getting started
 
