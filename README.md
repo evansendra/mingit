@@ -6,6 +6,12 @@ An extremely minified alias for git commands with tab completion.  Because who w
 
 ## Getting started
 
+### Installation
+
+    npm install -g mingit
+
+tested on Mac OS X El Capitan.  If this doesn't work for you, see [Manual Install](#manual install)
+
 ### Commands
 Supporting the minimal number of highly-used commands
 
@@ -36,7 +42,7 @@ It also keeps tab completion.  So when you want to switch to another branch, jus
 
 as you normally would.
 
-### Setup in 30 seconds
+### Manual Install
 
 ### Linux
 
