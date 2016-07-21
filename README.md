@@ -21,11 +21,11 @@ Supporting the minimal number of highly-used commands
     g psh                   // git push
     g s                     // git status
     
-This tries not to destroy command line parameters, so for example typing 
+This doesn't destroy command line parameters, so for example typing 
 
     g psh origin magic      // pushes local to origin/magic
 
-or any other number of parameters on different commands is also ok.  Also, since command line parameters are not destoryed, using `g` by itself instead of git followed by a command also works:
+or any other number of parameters on different commands works as "git push origin magic" would.  Also, since command line parameters are not destoryed, using `g` by itself instead of git followed by a command also works:
 
     g stash                 // works just as well with any git subcommand
 
