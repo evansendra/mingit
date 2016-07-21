@@ -40,18 +40,18 @@ as you normally would.
 
 ### Linux
 
-If on linux, append the bashrc file to `~/.bashrc` to use shortened commands. 
+If on linux, append [scripts/bashrc] to `~/.bashrc` to use shortened commands. 
 
 	cat ./.bashrc >> ~/.bashrc
 
 ### Mac
 
-Append the contents of `.bash_profile` to your `~/.bash_profile`:
+Append the contents of [scripts/bash_profile] to your `~/.bash_profile`:
 
 	cat ./.bash_profile >> ~/.bash_profile
 
 ### Windows 
 
-If on windows, append `.win-bashrc` to `~/.bashrc` (create it if it doesn't exist) in your home directory (find home by `echo $HOME` on your git bash setup...probably `/c/users/$USER`). 
+If on windows, append [scripts/win-bashrc] to `~/.bashrc` (create it if it doesn't exist) in your home directory (find home by `echo $HOME` on your git bash setup...probably `/c/users/$USER`). 
 
 Now use the [mingit commands](#commands) instead of the git commands to save tons of time while using git.

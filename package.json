@@ -1,0 +1,31 @@
+{
+  "name": "mingit",
+  "version": "1.0.0",
+  "description": "An extremely minified alias for git commands",
+  "main": "index.js",
+  "scripts": {
+    "install": "scripts/install.js",
+    "uninstall": "scripts/uninstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evansendra/mingit.git"
+  },
+  "keywords": [
+    "git",
+    "alias",
+    "minify",
+    "minified",
+    "minification",
+    "github",
+    "command",
+    "commands"
+  ],
+  "author": "Evan Sendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evansendra/mingit/issues"
+  },
+  "homepage": "https://github.com/evansendra/mingit#readme"
+}
