@@ -2,7 +2,7 @@
 
 An extremely minified alias for git commands with tab completion.  Because who wants `git commit -m "blah blah blah"` to make every change?
 
-<img src="https://lh3.googleusercontent.com/VMJqIA52i_7oeY3z1zRThPmE_4nZYdsLfTdP95EKrQU=w906-h582-no" alt="animated demo" width="500px"/>
+<img src="https://lh3.googleusercontent.com/VMJqIA52i_7oeY3z1zRThPmE_4nZYdsLfTdP95EKrQU=w906-h582-no" alt="animated demo" width="250px"/>
 
 ## Getting started
 
