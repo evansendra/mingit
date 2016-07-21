@@ -4,7 +4,8 @@
   "description": "An extremely minified alias for git commands",
   "main": "index.js",
   "scripts": {
-    "install": "scripts/install.js",
+    "install": "node scripts/install.js",
+    "postinstall": "echo \"Open up a new terminal tab/window and try out mingit.\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/evansendra/mingit/issues"
   },
-  "homepage": "https://github.com/evansendra/mingit#readme"
+  "homepage": "https://github.com/evansendra/mingit#readme",
+  "dependencies": {
+    "homedir": ""
+  }
 }
