@@ -10,7 +10,7 @@ An extremely minified alias for git commands with tab completion.  Because who w
 
     npm install -g mingit
 
-tested on Mac OS X El Capitan.  If this doesn't work for you, see [Manual Install](#manual install)
+tested on Mac OS X El Capitan.  If this doesn't work for you, see [Manual Install](#manual-install)
 
 ### Commands
 Supporting the minimal number of highly-used commands
