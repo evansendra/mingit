@@ -22,7 +22,7 @@ Supporting the minimal number of highly-used commands
     g c "made some changes" // git commit -m "made some changes"
     g co master             // git checkout master
     g d                     // git diff
-	g f						// git fetch
+    g f                     // git fetch
     g i                     // git init 
     g m hotfix              // git merge hotfix
     g pll                   // git pull
