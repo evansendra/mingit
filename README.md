@@ -44,10 +44,6 @@ It also keeps tab completion.  So when you want to switch to another branch, jus
 
 as you normally would.
 
-### Uninstall
-
-	$ npm uninstall -g mingit
-
 ### Manual Install
 
 ### Linux
@@ -67,3 +63,8 @@ Append the contents of [scripts/bash_profile] to your `~/.bash_profile`:
 If on windows, append [scripts/win-bashrc] to `~/.bashrc` (create it if it doesn't exist) in your home directory (find home by `echo $HOME` on your git bash setup...probably `/c/users/$USER`). 
 
 Now use the [mingit commands](#commands) instead of the git commands to save tons of time while using git.
+
+### Uninstall
+
+	$ npm uninstall -g mingit
+
