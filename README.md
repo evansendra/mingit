@@ -10,7 +10,7 @@ An extremely minified alias for git commands with tab completion.  Because who w
 
     npm install -g mingit
 
-** Now open a new terminal, and try out the [Commands](#commands) below. **
+** You must execute `source ~/.mingit.sh` or open a new terminal, then you can try out the [Commands](#commands) below. **
 
 Tested on Mac OS X El Capitan.  If this doesn't work for you, see [Manual Install](#manual-install)
 
@@ -43,6 +43,10 @@ It also keeps tab completion.  So when you want to switch to another branch, jus
     HEAD         master       second-branch   ORIG_HEAD
 
 as you normally would.
+
+### Uninstall
+
+	$ npm uninstall -g mingit
 
 ### Manual Install
 
