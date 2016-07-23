@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "install": "node scripts/install.js",
-    "postinstall": "echo \"Open up a new terminal tab/window and try out mingit.\"",
+    "postinstall": "node scripts/postinstall.js",
+    "uninstall": "node scripts/uninstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +30,6 @@
   },
   "homepage": "https://github.com/evansendra/mingit#readme",
   "dependencies": {
-    "homedir": ""
+    "homedir": "^0.6.0"
   }
 }
