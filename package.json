@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/evansendra/mingit#readme",
   "dependencies": {
-    "homedir": "^0.6.0"
+    "homedir": "",
+    "fs-extra": ""
   }
 }
