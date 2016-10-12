@@ -50,6 +50,8 @@ g()
 			eval git checkout $@;;
 		d)
 			eval git diff $@;;
+                f)
+			eval git fetch $@;;
 		i)
 			eval git init $@;;
 		m)
