@@ -1,4 +1,4 @@
-<img src="mingit-logo.jpg" alt="Mingit Logo" width="512" height="153"/>
+<img src="mingit-logo.jpg" alt="Mingit Logo" width="500" height="200"/>
 
 An extremely minified alias for git commands with tab completion.  Because who wants `git commit -m "blah blah blah"` to make every change?
 
