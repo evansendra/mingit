@@ -12,7 +12,7 @@ if (utils.isWindows()) {
 		}
 	});
 } else {
-	var script = 'scripts/';
+	var script = path.resolve(__dirname) + '/';
 	if (utils.isApple()) {
 	    script += 'install-apple-bash-profile.sh';
 	} else {
@@ -26,5 +26,4 @@ if (utils.isWindows()) {
 	  process.stdout.write(out); 
 	});
 }
-
 
