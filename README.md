@@ -8,7 +8,11 @@ An extremely minified alias for git commands with tab completion.  Because who w
 
 ### Installation
 
-    npm install -g mingit
+    npm install -g mingit && source ~/.mingit.sh
+
+or if you like [yarn](https://yarnpkg.com)
+
+    yarn global add mingit && source ~/.mingit.sh
 
 ** You must execute `source ~/.mingit.sh` or open a new terminal, then you can try out the [Commands](#commands) below. **
 
@@ -68,3 +72,6 @@ Now use the [mingit commands](#commands) instead of the git commands to save ton
 
 	$ npm uninstall -g mingit
 
+or
+
+    $ yarn global remove mingit
