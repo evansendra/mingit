@@ -2787,7 +2787,7 @@ _git_psh ()
 }
 
 complete -o default -F _git g
-g()
+g ()
 {
 	arg1=$1
 	shift
