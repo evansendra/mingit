@@ -40,6 +40,10 @@ _git_psh ()
 {
     _git_push
 }
+_git_amend ()
+{
+	_git_commit_--amend_--no-edit
+}
 
 # git alias land
 complete -o default -F _git g
@@ -70,6 +74,8 @@ g ()
 			eval git push $@;;
 		s)
 			eval git status $@;;
+		amend)
+			eval git commit --amend --no-edit;;
 		*)
 			eval git $arg1 $@;;
 	esac
