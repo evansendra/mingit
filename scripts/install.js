@@ -2,6 +2,7 @@ const utils = require('./utils'); const execFile = require('child_process').exec
 const homedir = require('homedir');
 const fs = require('fs-extra');
 const path = require('path');
+const readline = require('readline-sync');
 
 if (utils.isWindows()) {
 	fs.copySync(path.resolve(__dirname, 'win-bashrc'), path.resolve(homedir(), '.mingit.sh'));
@@ -30,7 +31,11 @@ if (utils.isWindows()) {
 			// 		// zsh
 			// 	script += 'install-apple-zsh.sh';
 			// }
-			script += 'install-apple-zsh.sh';
+			let user_terminal = readline.question("If you want to use bash instead of zsh (default), type `bash`, otherwise leave blank or type anything else.\n");
+			if (user_terminal === "bash")
+				script += 'install-apple-bash-profile.sh';
+			else
+				script += 'install-apple-zsh.sh';
 
 			// // When user inputs data and click enter key.
 			// standard_input.on('data', terminalSelect);
