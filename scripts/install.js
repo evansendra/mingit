@@ -1,4 +1,5 @@
-const utils = require('./utils'); const execFile = require('child_process').execFile;
+const utils = require('./utils');
+const execFile = require('child_process').execFile;
 const homedir = require('homedir');
 const fs = require('fs-extra');
 const path = require('path');
