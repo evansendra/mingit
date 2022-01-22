@@ -1,6 +1,6 @@
 {
   "name": "mingit",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "An extremely minified git alias with tab completion",
   "main": "index.js",
   "scripts": {
@@ -33,5 +33,6 @@
     "fs-extra": "",
     "homedir": "",
     "readline-sync": ""
-  }
+  },
+  "use-mac-bash": false
 }
