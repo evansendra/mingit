@@ -33,5 +33,6 @@
     "fs-extra": "",
     "homedir": "",
     "readline-sync": ""
-  }
+  },
+  "use-mac-bash": false
 }

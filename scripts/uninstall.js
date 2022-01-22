@@ -37,7 +37,7 @@ fileOp(mac_config_file_bash, 'source ~/.mingit.sh');
 fileOp(win_linux_config, 'source ~/.mingit.sh');
 var added_lines_zsh =
 `# start mingit #
-zstyle ':completion:*:*:git:*' script ~/.git-completions.bash
+zstyle ':completion:*:*:git:*' script ~/.git-completions-mingit.bash
 autoload -Uz compinit && compinit -u
 source ~/.mingit.sh
 compdef g='git'
@@ -45,7 +45,7 @@ compdef g='git'
 fileOp(mac_config_file_zsh, added_lines_zsh);
 
 const mingit_sh = homedir() + '/.mingit.sh';
-const git_completions = homedir() + '/.git-completions.bash';
+const git_completions = homedir() + '/.git-completions-mingit.bash';
 const files_to_delete = [mingit_sh, git_completions];
 files_to_delete.map((file) => {
 	fs.access(file, fs.R_OK | fs.W_OK, (err) => {
