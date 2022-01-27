@@ -90,4 +90,4 @@ Now use the [mingit commands](#commands) instead of the git commands to save ton
 
 or
 
-    $ yarn global remove mingit
+  $ yarn global remove mingit
