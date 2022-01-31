@@ -31,8 +31,7 @@
   "homepage": "https://github.com/evansendra/mingit#readme",
   "dependencies": {
     "fs-extra": "",
-    "homedir": "",
-    "readline-sync": ""
+    "homedir": ""
   },
   "use-mac-bash": false
 }
