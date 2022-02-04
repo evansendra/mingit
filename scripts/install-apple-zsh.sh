@@ -8,5 +8,6 @@ zstyle ':completion:*:*:git:*' script ~/.git-completions.bash
 autoload -Uz compinit && compinit -u
 source ~/.mingit.sh
 compdef g='git'
+fpath=(~/.zsh_mingit $fpath)
 # end mingit #
 EOF
