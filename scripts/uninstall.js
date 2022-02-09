@@ -41,12 +41,15 @@ zstyle ':completion:*:*:git:*' script ~/.git-completions-mingit.bash
 autoload -Uz compinit && compinit -u
 source ~/.mingit.sh
 compdef g='git'
+fpath=(~/.zsh_mingit $fpath)
 # end mingit #`;
 fileOp(mac_config_file_zsh, added_lines_zsh);
 
 const mingit_sh = homedir() + '/.mingit.sh';
 const git_completions = homedir() + '/.git-completions-mingit.bash';
-const files_to_delete = [mingit_sh, git_completions];
+const zsh_completions = homedir() + '/.zsh_mingit/_git'
+const files_to_delete = [mingit_sh, git_completions, zsh_completions];
+
 files_to_delete.map((file) => {
 	fs.access(file, fs.R_OK | fs.W_OK, (err) => {
 		if (err) {
