@@ -7,6 +7,7 @@ An extremely minified alias for git commands with tab completion.  Because who w
 ## Getting started
 
 ### Installation
+The below works out of the box for zsh on mac or bash on windows.  If using bash on mac, change the value of `use-mac-bash` in [package.json] to `true`: 
 
     npm install -g mingit && source ~/.mingit.sh
 
@@ -14,7 +15,7 @@ or if you like [yarn](https://yarnpkg.com)
 
     yarn global add mingit && source ~/.mingit.sh
 
-** You must execute `source ~/.mingit.sh` or open a new terminal, then you can try out the [Commands](#commands) below. **
+** You must execute `source ~/.mingit.sh` or `source ~/.zshrc` if using zsh on mac, or open a new terminal, then you can try out the [Commands](#commands) below. **
 
 Tested on Mac OS X El Capitan.  If this doesn't work for you, see [Manual Install](#manual-install)
 
@@ -58,6 +59,21 @@ If on linux, append [scripts/bashrc] to `~/.bashrc` to use shortened commands.
 
 ### Mac
 
+For zsh:
+
+* Copy [scripts/zsh-mingit] to `~/.mingit.sh`
+* Copy [scripts/git-completions.bash] to `~/.git-completions-mingit.sh`
+
+Then add the following to your `~/.zshrc` file:
+
+    # start mingit #
+    zstyle ':completion:*:*:git:*' script ~/.git-completions-mingit.bash
+    autoload -Uz compinit && compinit -u
+    source ~/.mingit.sh
+    compdef g='git'
+    # end mingit #
+
+For bash:
 Append the contents of [scripts/bash_profile] to your `~/.bash_profile`:
 
 	cat ./.bash_profile >> ~/.bash_profile
@@ -74,4 +90,4 @@ Now use the [mingit commands](#commands) instead of the git commands to save ton
 
 or
 
-    $ yarn global remove mingit
+  $ yarn global remove mingit
