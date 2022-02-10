@@ -86,6 +86,8 @@ Now use the [mingit commands](#commands) instead of the git commands to save ton
 
 ### Uninstall
 
+As of v7 of npm, uninstall scripts don't work :( However, you can easily uninstall this alias by running node scripts/uninstall.js before executing the below.
+
 	$ npm uninstall -g mingit
 
 or
