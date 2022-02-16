@@ -11,10 +11,6 @@ The below works out of the box for zsh on mac or bash on windows.  If using bash
 
     npm install -g mingit && source ~/.mingit.sh
 
-or if you like [yarn](https://yarnpkg.com)
-
-    yarn global add mingit && source ~/.mingit.sh
-
 ** You must execute `source ~/.mingit.sh` or `source ~/.zshrc` if using zsh on mac, or open a new terminal, then you can try out the [Commands](#commands) below. **
 
 Tested on Mac OS X El Capitan.  If this doesn't work for you, see [Manual Install](#manual-install)
@@ -89,7 +85,3 @@ Now use the [mingit commands](#commands) instead of the git commands to save ton
 As of v7 of npm, uninstall scripts don't work :( However, you can easily uninstall this alias by running node scripts/uninstall.js before executing the below.
 
 	$ npm uninstall -g mingit
-
-or
-
-  $ yarn global remove mingit
