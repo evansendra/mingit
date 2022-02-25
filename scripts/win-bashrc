@@ -60,6 +60,10 @@ g()
 			eval git pull $@;;
 		psh)
 			eval git push $@;;
+		rst)
+			eval git reset $@;;
+		rsto)
+			eval git restore $@;;
 		s)
 			eval git status $@;;
 		*)

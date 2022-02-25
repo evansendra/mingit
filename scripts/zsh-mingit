@@ -1,45 +1,3 @@
-# custom git completions 
-_git_a ()
-{
-    _git_add
-}
-_git_b ()
-{
-    _git_branch
-}
-_git_c ()
-{
-    _git_commit
-}
-_git_co () 
-{
-    _git_checkout 
-}
-_git_d ()
-{
-    _git_diff
-}
-_git_f ()
-{
-	_git_fetch
-}
-_git_i ()
-{
-    _git_init
-}
-_git_m ()
-{
-    _git_merge
-}
-_git_pll ()
-{
-    _git_pull
-}
-_git_psh ()
-{
-    _git_push
-}
-
 # git alias land
 g ()
 {
@@ -66,6 +24,10 @@ g ()
 			eval git pull $@;;
 		psh)
 			eval git push $@;;
+		rst)
+			eval git reset $@;;
+		rsto)
+			eval git restore $@;;
 		s)
 			eval git status $@;;
 		*)
