@@ -18,17 +18,19 @@ Tested on Mac OS X El Capitan.  If this doesn't work for you, see [Manual Instal
 ### Commands
 Supporting the minimal number of highly-used commands
 
-    g a .                   // git add .
-    g b other-branch        // git branch other-branch
-    g c "made some changes" // git commit -m "made some changes"
-    g co master             // git checkout master
-    g d                     // git diff
-    g f                     // git fetch
-    g i                     // git init 
-    g m hotfix              // git merge hotfix
-    g pll                   // git pull
-    g psh                   // git push
-    g s                     // git status
+    g a .                      // git add .
+    g b other-branch           // git branch other-branch
+    g c -m "made some changes" // git commit -m "made some changes"
+    g co master                // git checkout master
+    g d                        // git diff
+    g f                        // git fetch
+    g i                        // git init 
+    g m hotfix                 // git merge hotfix
+    g pll                      // git pull
+    g psh                      // git push
+    g r                        // git reset
+    g rsto                     // git restore
+    g s                        // git status
     
 This doesn't destroy command line parameters, so for example typing 
 
