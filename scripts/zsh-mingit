@@ -51,7 +51,7 @@ g ()
 		b)
 			eval git branch $@;;
 		c)
-			eval git commit -m \"$1\";;
+			eval git commit $@;;
 		co)
 			eval git checkout $@;;
 		d)
