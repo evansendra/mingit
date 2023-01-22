@@ -49,28 +49,28 @@ g ()
 	shift
 	case "$arg1" in
 		a)
-			eval git add $@;;
+			git add $@;;
 		b)
-			eval git branch $@;;
+			git branch $@;;
 		c)
-			eval git commit $@;;
+			git commit $@;;
 		co)
-			eval git checkout $@;;
+			git checkout $@;;
 		d)
-			eval git diff $@;;
+			git diff $@;;
 		f)
-			eval git fetch $@;;
+			git fetch $@;;
 		i)
-			eval git init $@;;
+			git init $@;;
 		m)
-			eval git merge $@;;
+			git merge $@;;
 		pll)
-			eval git pull $@;;
+			git pull $@;;
 		psh)
-			eval git push $@;;
+			git push $@;;
 		s)
-			eval git status $@;;
+			git status $@;;
 		*)
-			eval git $arg1 $@;;
+			git $arg1 $@;;
 	esac
 }
