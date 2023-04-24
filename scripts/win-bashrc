@@ -50,7 +50,7 @@ g()
 			git checkout $@;;
 		d)
 			git diff $@;;
-                f)
+		f)
 			git fetch $@;;
 		i)
 			git init $@;;
