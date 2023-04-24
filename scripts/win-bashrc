@@ -35,38 +35,45 @@ _git_psh ()
 {
     _git_push
 }
-g()
+g ()
 {
 	arg1=$1
 	shift
-	case "$arg1" in
-		a)
-			git add $@;;
-		b)
-			git branch $@;;
-		c)
-			git commit $@;;
-		co)
-			git checkout $@;;
-		d)
-			git diff $@;;
-		f)
-			git fetch $@;;
-		i)
-			git init $@;;
-		m)
-			git merge $@;;
-		pll)
-			git pull $@;;
-		psh)
-			git push $@;;
-		rst)
-			git reset $@;;
-		rsto)
-			git restore $@;;
-		s)
-			git status $@;;
-		*)
-			git $arg1 $@;;
-	esac
+	if [[ $arg1 == "b" ]]; then
+		arg2=$1
+		if [[  $arg2 == "which" ]]; then
+			git branch --show-current
+		else
+			git branch $@
+		fi
+	else
+		case "$arg1" in
+			a)
+				git add $@;;
+			c)
+				git commit "$@";;
+			co)
+				git checkout $@;;
+			d)
+				git diff $@;;
+			f)
+				git fetch $@;;
+			i)
+				git init $@;;
+			m)
+				git merge $@;;
+			pll)
+				git pull $@;;
+			psh)
+				git push $@;;
+			rst)
+				git reset $@;;
+			rsto)
+				git restore $@;;
+			s)
+				git status $@;;
+			*)
+				git $arg1 $@;;
+		esac
+	fi
 }

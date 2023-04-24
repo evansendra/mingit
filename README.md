@@ -20,6 +20,7 @@ Supporting the minimal number of highly-used commands
 
     g a .                      // git add .
     g b other-branch           // git branch other-branch
+    g b which                  // git branch --show-current (note this assumes git version >= 2.22)
     g c -m "made some changes" // git commit -m "made some changes"
     g co master                // git checkout master
     g d                        // git diff
