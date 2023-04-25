@@ -1,6 +1,6 @@
 {
   "name": "mingit",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "description": "An extremely minified git alias with tab completion",
   "main": "index.js",
   "scripts": {
