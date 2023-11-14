@@ -7,7 +7,7 @@ An extremely minified alias for git commands with tab completion.  Because who w
 ## Getting started
 
 ### Installation
-_Using ohmyzsh? See [Use mingit with Oh My Zsh](mingit-ohmyzsh/README.md)_
+_Using ohmyzsh? See [Use mingit with Oh My Zsh](mingit-ohmyzsh)_
 
 The below works out of the box for zsh on mac or bash on windows.  If using bash on mac, change the value of `use-mac-bash` in [package.json] to `true`: 
 

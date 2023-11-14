@@ -2,7 +2,7 @@
 
 Add mingit as a custom plugin to your ohmyzsh installation:
 
-1. Copy the below `mingit` subdirectory to `$ZSH_CUSTOM/plugins/`
+1. Copy the `mingit` subdirectory here to `$ZSH_CUSTOM/plugins/`
 2. Add `mingit` to the list of plugins in your `~/.zshrc` file:
     1. `plugins=(... mingit)`
 
