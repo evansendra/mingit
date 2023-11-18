@@ -1,8 +1,13 @@
-<img src="mingit-logo.jpg" alt="Mingit Logo" width="250" height="100"/>
+<div style="display: flex; justify-content: center; padding: 1em;">
+    <source srcset="mingit-logo-light-text.png" media="(prefers-color-scheme: dark)">
+    <img src="mingit-logo-light-text.png" alt="Description of the image" width="250">
+</div>
 
 An extremely minified alias for git commands with tab completion.  Because who wants `git commit -m "blah blah blah"` to make every change?
 
-<img src="https://lh3.googleusercontent.com/VMJqIA52i_7oeY3z1zRThPmE_4nZYdsLfTdP95EKrQU=w906-h582-no" alt="animated demo" width="500px"/>
+[//]: # (<img src="https://lh3.googleusercontent.com/VMJqIA52i_7oeY3z1zRThPmE_4nZYdsLfTdP95EKrQU=w906-h582-no" alt="animated demo" width="500px"/>)
+
+
 
 ## Getting started
 
