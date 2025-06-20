@@ -19,6 +19,10 @@ _git_d ()
 {
     _git_diff
 }
+_git_dst ()
+{
+    _git_diff
+}
 _git_i ()
 {
     _git_init
@@ -56,6 +60,8 @@ g ()
 				git checkout $@;;
 			d)
 				git diff $@;;
+			dst)
+				git diff --staged "$@";;
 			f)
 				git fetch $@;;
 			i)

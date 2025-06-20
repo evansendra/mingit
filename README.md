@@ -34,6 +34,7 @@ Supporting the minimal number of highly-used commands
     g c -m "made some changes" // git commit -m "made some changes"
     g co master                // git checkout master
     g d                        // git diff
+    g dst                      // git diff --staged
     g f                        // git fetch
     g i                        // git init 
     g m hotfix                 // git merge hotfix
