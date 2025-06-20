@@ -59,7 +59,7 @@ It also keeps tab completion.  So when you want to switch to another branch, jus
 
 as you normally would.
 
-### Manual Install
+## Manual Install
 
 ### Linux
 
@@ -94,8 +94,12 @@ If on windows, append [scripts/win-bashrc] to `~/.bashrc` (create it if it doesn
 
 Now use the [mingit commands](#commands) instead of the git commands to save tons of time while using git.
 
-### Uninstall
+## Uninstall
 
 As of v7 of npm, uninstall scripts don't work :( However, you can easily uninstall this alias by running node scripts/uninstall.js before executing the below.
 
 	$ npm uninstall -g mingit
+
+## Contributing
+
+If you have an idea for a new command or a bug to report, please open an issue or submit a pull request.  If you want to add a new command, please make sure it is a commonly used git command and that it is not already aliased by mingit.  When submitting PRs for new commands, ensure you update all relevant commands files as well as the README (see [749b4dc](https://github.com/evansendra/mingit/commit/749b4dcbef16abc26ef8731167097c33986c3aa8) for an example of adding a new command).
